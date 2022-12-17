@@ -113,6 +113,6 @@ module.exports = {
 
     // Naming
     "camelcase": "error",
-    "no-underscore-dangle": ["error", { "allow": ["_count"] }]
+    "no-underscore-dangle": ["error", { "allow": ["_count", "_id"] }]
   },
 };
